@@ -22,7 +22,7 @@ if (fs.existsSync(SESSION_FILE_PATH)) {
 client = new Client({	  
     
 	     puppeteer: {
-        executablePath: 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+        executablePath: 'usr/bin/google-chrome-stable',
         headless: true,
 		args: [
       "--log-level=3", // fatal only
@@ -1190,7 +1190,7 @@ var YoutubeMp3Downloader = require("youtube-mp3-downloader");
 
 //Configure YoutubeMp3Downloader with your settings
 var YD = new YoutubeMp3Downloader({
-    "ffmpegPath": "ffmpeg", 
+    "ffmpegPath": "usr/bin/ffmpeg", 
     "outputPath": "./mp3",    // Where should the downloaded and en>
     "youtubeVideoQuality": "highest",       // What video quality sho>
     "queueParallelism": 100,                  // How many parallel down>
@@ -1609,7 +1609,7 @@ chat.sendMessage(media);
 	 dan agar tetap berjalan dan tidak error
 	 
 	 😊 Jika ingin membantu boleh chat kesini
-	 wa.me/6285225145663
+	 wa.me/6287882827787
 	`);
   }
      else if (msg.body == "!rules" ||
@@ -1734,9 +1734,9 @@ exec('wget "' + d.url + '" -O anime/nime.jpg', (error, stdout, stderr) => {
  client.sendMessage(msg.from,  `
 *SELAMAT DATANG ^_^*
 
-_Jika ingin menambahkan bot ke group chat admin -> wa.me/6285225145663_
+_Jika ingin menambahkan bot ke group chat admin -> wa.me/6287882827787_
 
-*Donasi kawan ;_; chat saya -> wa.me/6285225145663*
+*Donasi kawan ;_; chat saya -> wa.me/6287882827787*
 
 _Hai kawan, sebelum memakai bot ini patuhi rules dulu ya ._
 Ketikan *!rules* untuk melihat rules memakai bot ini
@@ -1749,7 +1749,6 @@ Ketikan *!rules* untuk melihat rules memakai bot ini
 ➡️ !menu3 = Horoscope Menu 🎇
 ➡️ Premium Feature = NSFW Menu 🚫
 
-chat me for buy premium feature -> wa.me/6285225145663 
 
 `);
 }
